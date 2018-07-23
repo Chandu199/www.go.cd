@@ -4,6 +4,99 @@ title_tag_of_header: "Open Source Continuous Delivery and Automation Server | Go
 meta_description: "GoCD is an open source continuous delivery server that helps organizations increase productivity and deliver high quality through automation."
 meta_keywords: "GoCD, continuous delivery, continuous delivery tool, continuous integration, continuous integration software, open source, automated release management, automation, software deployment"
 ---
+<header class="banner">
+  <div class="container">
+    <div class="banner_heading">
+      <h1>Simplify Continuous Delivery</h1>
+    </div>
+    <div class="banner-row-box">
+      <div class="banner-row-box_item_image">
+        <%= image_tag "home/ui_illo.svg", {:title => "GoCD illustration", :alt => "GoCD Value Stream Map", :class => 'ui-illo'} %>
+      </div>
+      <div class="banner-row-box_item_text">
+        <h2>
+          EASILY MODEL AND VISUALIZE COMPLEX WORKFLOWS WITH GoCD, A FREE AND OPEN SOURCE CONTINUOUS DELIVERY SERVER.
+        </h2>
+        <%= link_to 'GETTING STARTED GUIDE', "/getting-started/part-1/index.html", {:class => "btn btn-getting-started", "analytics-label" => "home-started-cta"} %>
+        <%= link_to 'DOWNLOAD GoCD', "/download/index.html", {:class => "btn btn-download", "analytics-label" => "home-download-cta"} %>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="sub-banner">
+  <div class="container">
+    <h3>Free Webinar : Actionable Continuous Delivery Metrics : July 26</h3>
+    <%= link_to 'REGISTER NOW', 'https://info.thoughtworks.com/Actionable_CD_Metrics.html' %>
+  </div>
+</section>
+
+<section class="secondary-heading-section">
+  <div class="container">
+    <p class="secondary-heading">
+      Automate and streamline your build-test-release cycle for reliable, continuous delivery of your product.
+    </p>
+  </div>
+</section>
+
+<section class="feature-section">
+  <div class="container">
+    <div class="row-box-three">
+      <div class="row-box-three_item">
+        <%= partial "partials/whygocdfeature1" %>
+      </div>
+      <div class="row-box-three_item">
+        <%= partial "partials/whygocdfeature2" %>
+      </div>
+      <div class="row-box-three_item">
+        <%= partial "partials/whygocdfeature3" %>
+      </div>
+    </div>
+    <%= link_to 'See more GoCD features', '/why-gocd/index.html', :class => 'btn btn-default see-all-features', "analytics-label" => "link_homepage_see_more_gocd_features" %>
+  </div>
+</section>
+
+<section class="community-section">
+  <div class="container row-box-two">
+    <div class="row-box-two_item">
+      <figure class="row-box-icon">
+        <%= image_tag "icons/go.cd_plugins.svg", {:title => "GoCD open source plugins", :alt => "GoCD open source plugins"} %> 
+      </figure>
+      <div class="row-box-text">
+        <h3 class="row-box-title">Plugins</h3>
+      <p class="row-boxd-desc">
+        GoCD has numerous extension points for which plugins can be created. There are
+        <%= link_to 'numerous plugins', '/plugins/index.html', "analytics-label" => "link_homepage_plugins" %> 
+        already available, or if you don't see
+        what you need, you can <%= link_to 'write your own', 'https://developer.gocd.org/current/writing_go_plugins/go_plugins_basics.html',
+                                    "analytics-label" => "link_homepage_plugin_writing_docs" %>
+      </p>
+      </div>
+    </div>
+
+    <div class="row-box-two_item">
+      <figure class="row-box-icon">
+        <%= image_tag "icons/go.cd_community.svg", {:title => "GoCD open source community", :alt => "GoCD open source community"}  %>
+      </figure>
+      <div class="row-box-text">
+        <h3 class="row-box-title">Community</h3>
+        <p class="row-boxd-desc">
+          GoCD's community is 1000 members strong and growing. Through our active forum, users and contributors share best practices and
+          openly discuss a wide range of topics including product how-tos. To join in the
+          conversation visit <a href="https://groups.google.com/forum/#!forum/go-cd" analytics-label="link_homepage_google_group" >our Google group.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="support-banner-section"> 
+  <%= partial "partials/supportbanner" %>
+</section>
+
+
+
+<%#
 <div class="banner">
   <div class="container">
     <div class="row caption">
@@ -14,13 +107,16 @@ meta_keywords: "GoCD, continuous delivery, continuous delivery tool, continuous 
     <div class="row subcaption">
       <div class="col-lg-7">
         <%= image_tag "home/ui_illo.svg", {:title => "GoCD illustration", :alt => "GoCD Value Stream Map", :class => 'ui-illo'} %>
+   <%#
       </div>
       <div class="col-lg-5">
         <p>
         EASILY MODEL AND VISUALIZE COMPLEX WORKFLOWS WITH GoCD, A FREE AND OPEN SOURCE CONTINUOUS DELIVERY SERVER.
         </p>
         <%= link_to 'GETTING STARTED GUIDE', "/getting-started/part-1/index.html", {:class => "btn btn-getting-started", "analytics-label" => "home-started-cta"} %>
+        <%#
         <%= link_to 'DOWNLOAD GoCD', "/download/index.html", {:class => "btn btn-download", "analytics-label" => "home-download-cta"} %>
+    <%#
       </div>
     </div>
   </div>
@@ -32,15 +128,16 @@ meta_keywords: "GoCD, continuous delivery, continuous delivery tool, continuous 
       <h3>Free Webinar : Actionable Continuous Delivery Metrics : July 26</h3>
     </div>
       <% link_to 'https://info.thoughtworks.com/Actionable_CD_Metrics.html' do %>
+      <%#
         <div class="promo-btn">
           <p>REGISTER NOW</p>
         </div>
       <% end %>
+      <%#
   </div>
 </div>
 
-<p class="bigtxt">Automate and streamline your build-test-release cycle for reliable, continuous delivery of your product.
-</p>
+<p class="bigtxt">Automate and streamline your build-test-release cycle for reliable, continuous delivery of your product.</p>
 
 
 <div class="main-features">
@@ -48,46 +145,56 @@ meta_keywords: "GoCD, continuous delivery, continuous delivery tool, continuous 
     <div class="row features">
       <div class=" col-sm-12 col-md-4">
         <%= partial "partials/whygocdfeature1" %>
+        <%#
       </div>
       <div class=" col-sm-12 col-md-4">
         <%= partial "partials/whygocdfeature2" %>
+        <%#
       </div>
       <div class="col-sm-12 col-md-4">
         <%= partial "partials/whygocdfeature3" %>
+        <%#
       </div>
     </div>
     <%= link_to 'See more GoCD features', '/why-gocd/index.html', :class => 'btn btn-default see-all-features', "analytics-label" => "link_homepage_see_more_gocd_features" %>
+    <%#
   </div>
 </div>
+
+
 <div class="plugins-community">
-  <div class="container">
+  <di v class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="row plugins-cont">
-          <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="col-xs-3">
             <figure>
-              <%= image_tag "icons/go.cd_plugins.svg", {:title => "GoCD open source plugins", :alt => "GoCD open source plugins"} %>
+              <%= image_tag "icons/go.cd_plugins.svg", {:title => "GoCD open source plugins", :alt => "GoCD open source plugins"} %> 
+              <%#
             </figure>
           </div>
-          <div class="col-xs-9 col-sm-9 col-md-9">
+          <div class="col-xs-9">
             <h3 class="plugins-title">Plugins</h3>
             <p>
               GoCD has numerous extension points for which plugins can be created. There are
-              <%= link_to 'numerous plugins', '/plugins/index.html', "analytics-label" => "link_homepage_plugins" %> already available, or if you don't see
+              <%= link_to 'numerous plugins', '/plugins/index.html', "analytics-label" => "link_homepage_plugins" %> 
+              <%#already available, or if you don't see
               what you need, you can <%= link_to 'write your own', 'https://developer.gocd.org/current/writing_go_plugins/go_plugins_basics.html',
                                          "analytics-label" => "link_homepage_plugin_writing_docs" %>.
+                                         <%#
             </p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="row community-cont">
-          <div class=" col-xs-3 col-sm-3 col-md-3">
+          <div class=" col-xs-3">
             <figure>
               <%= image_tag "icons/go.cd_community.svg", {:title => "GoCD open source community", :alt => "GoCD open source community"}  %>
+              <%#
             </figure>
           </div>
-          <div class="col-xs-9 col-sm-9 col-md-9">
+          <div class="col-xs-9">
             <h3 class="plugins-title">Community</h3>
             <p>
               GoCD's community is 1000 members strong and growing. Through our active forum, users and contributors share best practices and
@@ -98,6 +205,6 @@ meta_keywords: "GoCD, continuous delivery, continuous delivery tool, continuous 
         </div>
       </div>
     </div>
-  </div>
+  </di>
 </div>
 <%= partial "partials/supportbanner" %>

@@ -6,12 +6,9 @@
 
 
 
-@import "scss/opensans";
+@import "scss/font";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "scss/urw-geometric";
-
-
 
 @import "scss/variables";
 @import "bootstrap_override";
@@ -23,7 +20,6 @@
 
 //components
 @import "scss/tabs";
-
 @import "scss/general";
 @import "scss/navigation";
 @import "scss/header";

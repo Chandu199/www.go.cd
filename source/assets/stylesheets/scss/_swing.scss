@@ -1,48 +1,44 @@
 
 .swing{
--webkit-perspective: 500;
--moz-perspective: 500;
--o-perspective: 500;
-perspective: 500;
-margin:15px auto;
-display:block;
-text-align:center;
-
-
+  -webkit-perspective: 500;
+  -moz-perspective: 500;
+  -o-perspective: 500;
+  perspective: 500;
+  margin:15px auto;
+  display:block;
+  text-align:center;
 }
 
 .hover {
+  position: relative; z-index:1;
+  -webkit-transition:all 250ms ease;
+  -moz-transition:all 250ms ease;
+  -o-transition:all 250ms ease;
+  transition:all 250ms ease;
 
-position: relative; z-index:1;
--webkit-transition:all 250ms ease;
--moz-transition:all 250ms ease;
--o-transition:all 250ms ease;
-transition:all 250ms ease;
-background: #00aced; padding: 15px;
-display: block; 
-
-margin:0 8px;
-color: #fff; 
-text-decoration: none;
-text-align:center;
-padding:40px;
-font-size:30px;
-
+  background: #00aced; padding: 15px;
+  display: block; 
+  margin:0 8px;
+  color: #fff; 
+  text-decoration: none;
+  text-align:center;
+  padding:40px;
+  font-size:30px;
 }
 
 .hover:hover{
--webkit-transform-origin: top;
--moz-transform-origin: top;
--o-transform-origin: top;
--ms-transform-origin: top;
-transform-origin: top;
-transition:all 250ms ease;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  transition:all 250ms ease;
 
--webkit-animation: balance 1.5s ease-in-out 110ms 1 alternate;
--moz-animation: balance 1.5s ease-in-out 110ms 1 alternate;
--ms-animation: balance 1.5s ease-in-out 110ms 1 alternate;
--o-animation: balance 1.5s ease-in-out 110ms 1 alternate;
-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+  -webkit-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+  -moz-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+  -ms-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+  -o-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+  animation: balance 1.5s ease-in-out 110ms 1 alternate;
 }
 
  
