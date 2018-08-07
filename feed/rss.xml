@@ -5,10 +5,21 @@
   <id>http://localhost:4567/blog</id>
   <link href="http://localhost:4567/blog"/>
   <link href="http://localhost:4567/feed/rss.xml" rel="self"/>
-  <updated>2018-07-24T00:00:00Z</updated>
+  <updated>2018-07-31T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Configuration Strategy for Continuous Delivery of Microservices</title>
+    <link rel="alternate" href="http://localhost:4567/2018/07/31/cd-microservices-configuration-strategy.html"/>
+    <id>http://localhost:4567/2018/07/31/cd-microservices-configuration-strategy.html</id>
+    <published>2018-07-31T00:00:00Z</published>
+    <updated>2018-07-31T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">In this post, we'll look at three considerations for your microservices configuration strategy.</content>
+  </entry>
   <entry>
     <title>Improving GoCD through usage analytics</title>
     <link rel="alternate" href="http://localhost:4567/2018/07/24/gocd-usage-analytics.html"/>
@@ -107,16 +118,5 @@
       <name>Jean Baudin</name>
     </author>
     <content type="html">In post Jean Baudin of Travix talks about how they ran their end to end tests on Kubernetes.</content>
-  </entry>
-  <entry>
-    <title>Managing Build Versions in your GoCD Pipeline</title>
-    <link rel="alternate" href="http://localhost:4567/2018/02/13/managing-build-versions-pipeline.html"/>
-    <id>http://localhost:4567/2018/02/13/managing-build-versions-pipeline.html</id>
-    <published>2018-02-13T00:00:00Z</published>
-    <updated>2018-02-13T00:00:00Z</updated>
-    <author>
-      <name>Moritz Lenz</name>
-    </author>
-    <content type="html">Here are some steps on how to manage your build versions in your GoCD Pipeline.</content>
   </entry>
 </feed>

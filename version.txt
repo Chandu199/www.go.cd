@@ -1,1 +1,9 @@
-Current version: 175f9b456b2f6754d93f755b18d52e3e726b0487
+Last updated: 2018-08-07 09:57:04 -0700
+
+Latest commit:
+    commit 7f919877aef5daeac7e5e413d54f026b9654e438
+    Author: Chandu199 <n.chandrakanth0@gmail.com>
+    Date:   Tue Aug 7 14:26:46 2018 +0530
+    
+        fix on menu fix in ipad size 768px where menu disappears. Fixed media query
+    

@@ -43,6 +43,9 @@
     <loc>http://localhost:4567/2015/07/14/Go_15_2_announced/</loc>
   </url>
   <url>
+    <loc>http://localhost:4567/2018/07/31/cd-microservices-configuration-strategy/</loc>
+  </url>
+  <url>
     <loc>http://localhost:4567/2014/02/24/how-peg-your-pipeline-dependency-version/</loc>
   </url>
   <url>
@@ -541,6 +544,9 @@
     <loc>http://localhost:4567/tags/are-you-ready-for-continuous-delivery/</loc>
   </url>
   <url>
+    <loc>http://localhost:4567/tags/cd-for-microservices/</loc>
+  </url>
+  <url>
     <loc>http://localhost:4567/tags/cd-confessions/</loc>
   </url>
   <url>
@@ -559,9 +565,6 @@
     <loc>http://localhost:4567/tags/announcements/</loc>
   </url>
   <url>
-    <loc>http://localhost:4567/tags/cd-for-microservices/</loc>
-  </url>
-  <url>
     <loc>http://localhost:4567/tags/selling-devops/</loc>
   </url>
   <url>
@@ -572,6 +575,9 @@
   </url>
   <url>
     <loc>http://localhost:4567/2018/07/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4567/2018/07/31/</loc>
   </url>
   <url>
     <loc>http://localhost:4567/2018/07/24/</loc>
