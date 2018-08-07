@@ -2,17 +2,94 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>GoCD</title>
   <subtitle>Continuous Delivery</subtitle>
-  <id>https://www.gocd.org/blog</id>
-  <link href="https://www.gocd.org/blog"/>
-  <link href="https://www.gocd.org/feed/rss.xml" rel="self"/>
-  <updated>2018-03-21T00:00:00Z</updated>
+  <id>http://localhost:4567/blog</id>
+  <link href="http://localhost:4567/blog"/>
+  <link href="http://localhost:4567/feed/rss.xml" rel="self"/>
+  <updated>2018-07-24T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
+    <title>Improving GoCD through usage analytics</title>
+    <link rel="alternate" href="http://localhost:4567/2018/07/24/gocd-usage-analytics.html"/>
+    <id>http://localhost:4567/2018/07/24/gocd-usage-analytics.html</id>
+    <published>2018-07-24T00:00:00Z</published>
+    <updated>2018-07-24T00:00:00Z</updated>
+    <author>
+      <name>GoCD Team</name>
+    </author>
+    <content type="html">GoCD started collecting and analyzing usage data in 18.7. This post explains the data collected and how to turn it off.</content>
+  </entry>
+  <entry>
+    <title>How to Work with Materials in GoCD</title>
+    <link rel="alternate" href="http://localhost:4567/2018/07/17/gocd-materials-blacklisting-whitelisting.html"/>
+    <id>http://localhost:4567/2018/07/17/gocd-materials-blacklisting-whitelisting.html</id>
+    <published>2018-07-17T00:00:00Z</published>
+    <updated>2018-07-17T00:00:00Z</updated>
+    <author>
+      <name>Ankit Srivastava</name>
+    </author>
+    <content type="html">Learn more about how to use materials in GoCD, including understanding more about blacklisting and whitelisting</content>
+  </entry>
+  <entry>
+    <title>Configuration Strategy for Continuous Delivery of Microservices</title>
+    <link rel="alternate" href="http://localhost:4567/2018/07/11/cd-microservices-configuration-strategy.html"/>
+    <id>http://localhost:4567/2018/07/11/cd-microservices-configuration-strategy.html</id>
+    <published>2018-07-11T00:00:00Z</published>
+    <updated>2018-07-11T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">This post talks about the best ways to manage your configurations for continuous delivery of a microservices setup.</content>
+  </entry>
+  <entry>
+    <title>Environment Strategy for Continuous Delivery of Microservices</title>
+    <link rel="alternate" href="http://localhost:4567/2018/06/12/cd-microservices-environment-strategy.html"/>
+    <id>http://localhost:4567/2018/06/12/cd-microservices-environment-strategy.html</id>
+    <published>2018-06-12T00:00:00Z</published>
+    <updated>2018-06-12T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">In this post, we'll look at environment strategy including artifact promotion and leveraging modern infrastructure for dynamic environments.</content>
+  </entry>
+  <entry>
+    <title>Continuous Delivery of Microservices - Trunk Based Development and Feature Toggles</title>
+    <link rel="alternate" href="http://localhost:4567/2018/05/30/ci-microservices-feature-toggles-trunk-based-development.html"/>
+    <id>http://localhost:4567/2018/05/30/ci-microservices-feature-toggles-trunk-based-development.html</id>
+    <published>2018-05-30T00:00:00Z</published>
+    <updated>2018-05-30T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">Getting deeper into CD practices, we'll cover continuous integration, feature toggles, and the importance of trunk based development</content>
+  </entry>
+  <entry>
+    <title>Test Strategy for Microservices</title>
+    <link rel="alternate" href="http://localhost:4567/2018/05/08/continuous-delivery-microservices-test-strategy.html"/>
+    <id>http://localhost:4567/2018/05/08/continuous-delivery-microservices-test-strategy.html</id>
+    <published>2018-05-08T00:00:00Z</published>
+    <updated>2018-05-08T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">In the second post of this blog series, we will dig deeper into testing strategies for a microservices architecture..</content>
+  </entry>
+  <entry>
+    <title>5 Considerations for Continuous Delivery of Microservices</title>
+    <link rel="alternate" href="http://localhost:4567/2018/04/25/five-considerations-continuous-delivery-microservices.html"/>
+    <id>http://localhost:4567/2018/04/25/five-considerations-continuous-delivery-microservices.html</id>
+    <published>2018-04-25T00:00:00Z</published>
+    <updated>2018-04-25T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">In the first of this blog series, we will share the considerations to keep in mind in architecture design and application development.</content>
+  </entry>
+  <entry>
     <title>Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</title>
-    <link rel="alternate" href="https://www.gocd.org/2018/03/21/continuous-delivery-gocd-kubernetes.html"/>
-    <id>https://www.gocd.org/2018/03/21/continuous-delivery-gocd-kubernetes.html</id>
+    <link rel="alternate" href="http://localhost:4567/2018/03/21/continuous-delivery-gocd-kubernetes.html"/>
+    <id>http://localhost:4567/2018/03/21/continuous-delivery-gocd-kubernetes.html</id>
     <published>2018-03-21T00:00:00Z</published>
     <updated>2018-03-21T00:00:00Z</updated>
     <author>
@@ -22,8 +99,8 @@
   </entry>
   <entry>
     <title>Running your end to end tests on Kubernetes</title>
-    <link rel="alternate" href="https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes.html"/>
-    <id>https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes.html</id>
+    <link rel="alternate" href="http://localhost:4567/2018/02/27/running-end-to-end-tests-kubernetes.html"/>
+    <id>http://localhost:4567/2018/02/27/running-end-to-end-tests-kubernetes.html</id>
     <published>2018-02-27T00:00:00Z</published>
     <updated>2018-02-27T00:00:00Z</updated>
     <author>
@@ -33,90 +110,13 @@
   </entry>
   <entry>
     <title>Managing Build Versions in your GoCD Pipeline</title>
-    <link rel="alternate" href="https://www.gocd.org/2018/02/13/managing-build-versions-pipeline.html"/>
-    <id>https://www.gocd.org/2018/02/13/managing-build-versions-pipeline.html</id>
+    <link rel="alternate" href="http://localhost:4567/2018/02/13/managing-build-versions-pipeline.html"/>
+    <id>http://localhost:4567/2018/02/13/managing-build-versions-pipeline.html</id>
     <published>2018-02-13T00:00:00Z</published>
     <updated>2018-02-13T00:00:00Z</updated>
     <author>
       <name>Moritz Lenz</name>
     </author>
     <content type="html">Here are some steps on how to manage your build versions in your GoCD Pipeline.</content>
-  </entry>
-  <entry>
-    <title>4 Important Metrics for Continuous Delivery</title>
-    <link rel="alternate" href="https://www.gocd.org/2018/01/31/continuous-delivery-metrics.html"/>
-    <id>https://www.gocd.org/2018/01/31/continuous-delivery-metrics.html</id>
-    <published>2018-01-31T00:00:00Z</published>
-    <updated>2018-01-31T00:00:00Z</updated>
-    <author>
-      <name>Alison Polton-Simon</name>
-    </author>
-    <content type="html">Here are some important meaningful metrics to measure the effectiveness of your continuous deployment process.</content>
-  </entry>
-  <entry>
-    <title>An absolute beginners guide to Continuous Delivery</title>
-    <link rel="alternate" href="https://www.gocd.org/2018/01/17/continuous-delivery-beginners-guide.html"/>
-    <id>https://www.gocd.org/2018/01/17/continuous-delivery-beginners-guide.html</id>
-    <published>2018-01-17T00:00:00Z</published>
-    <updated>2018-01-17T00:00:00Z</updated>
-    <author>
-      <name>Erin Snyder</name>
-    </author>
-    <content type="html">This post is for anyone who identifies themselves as non-technical, and wants to understand what is continuous delivery and why it’s important.</content>
-  </entry>
-  <entry>
-    <title>Confessions of Continuous Delivery Experts: From microservices back to monolith</title>
-    <link rel="alternate" href="https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith.html"/>
-    <id>https://www.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith.html</id>
-    <published>2017-12-06T00:00:00Z</published>
-    <updated>2017-12-06T00:00:00Z</updated>
-    <author>
-      <name>Suzie Prince</name>
-    </author>
-    <content type="html">This story is about the experiences of the Snap CI team in moving a monolith codebase to microservices and the continuous delivery learnings along the way.</content>
-  </entry>
-  <entry>
-    <title>Confessions of Continuous Delivery Experts: When GoCD went open source</title>
-    <link rel="alternate" href="https://www.gocd.org/2017/11/28/confessions-continuous-delivery-experts-gocd-open-source.html"/>
-    <id>https://www.gocd.org/2017/11/28/confessions-continuous-delivery-experts-gocd-open-source.html</id>
-    <published>2017-11-28T00:00:00Z</published>
-    <updated>2017-11-28T00:00:00Z</updated>
-    <author>
-      <name>Aravind S.V</name>
-    </author>
-    <content type="html">This post is the story of how continuous delivery became critical to the GoCD team’s decision to go open source.</content>
-  </entry>
-  <entry>
-    <title>Minimizing Risk and Improving Security in DevOps</title>
-    <link rel="alternate" href="https://www.gocd.org/2017/11/14/minimizing-risk-improving-security-devops.html"/>
-    <id>https://www.gocd.org/2017/11/14/minimizing-risk-improving-security-devops.html</id>
-    <published>2017-11-14T00:00:00Z</published>
-    <updated>2017-11-14T00:00:00Z</updated>
-    <author>
-      <name>Franklin Mosley</name>
-    </author>
-    <content type="html">A few tips to help teams start practicing prioritizing security in DevOps.</content>
-  </entry>
-  <entry>
-    <title>Confessions of continuous delivery experts: How Mingle saw the light</title>
-    <link rel="alternate" href="https://www.gocd.org/2017/11/07/confessions-stories-continuous-delivery-mingle-project-management-tool.html"/>
-    <id>https://www.gocd.org/2017/11/07/confessions-stories-continuous-delivery-mingle-project-management-tool.html</id>
-    <published>2017-11-07T00:00:00Z</published>
-    <updated>2017-11-07T00:00:00Z</updated>
-    <author>
-      <name>Suzie Prince and Aravind S.V</name>
-    </author>
-    <content type="html">This post is about the journey of the Mingle development team from not doing continuous delivery at all to a state where continuous delivery is considered as a routine. </content>
-  </entry>
-  <entry>
-    <title>Our learnings from Continuous Delivery for Mobile Development</title>
-    <link rel="alternate" href="https://www.gocd.org/2017/10/31/mobile-app-continuous-delivery-gocd.html"/>
-    <id>https://www.gocd.org/2017/10/31/mobile-app-continuous-delivery-gocd.html</id>
-    <published>2017-10-31T00:00:00Z</published>
-    <updated>2017-10-31T00:00:00Z</updated>
-    <author>
-      <name>Sanchit Bahal</name>
-    </author>
-    <content type="html">This post chronicles a mobile app development team’s journey to continuous delivery, the challenges along the way and how they overcame them.</content>
   </entry>
 </feed>
