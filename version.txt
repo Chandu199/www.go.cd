@@ -1,9 +1,9 @@
-Last updated: 2018-08-09 01:09:00 -0700
+Last updated: 2018-08-09 02:12:09 -0700
 
 Latest commit:
-    commit 4767e9f353a16383fe0624bc7785f52e6b254765
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Aug 9 13:32:30 2018 +0530
+    commit 5a5f7d54b213cd995d33f2d5fdac3be313563304
+    Author: Chandu199 <n.chandrakanth0@gmail.com>
+    Date:   Thu Aug 9 14:37:46 2018 +0530
     
-        Revert temporary hack
+        beautified stylesheet removed commented code
     
