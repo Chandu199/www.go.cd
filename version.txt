@@ -1,9 +1,9 @@
-Last updated: 2018-08-07 09:57:04 -0700
+Last updated: 2018-08-09 01:09:00 -0700
 
 Latest commit:
-    commit 7f919877aef5daeac7e5e413d54f026b9654e438
-    Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Tue Aug 7 14:26:46 2018 +0530
+    commit 4767e9f353a16383fe0624bc7785f52e6b254765
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Thu Aug 9 13:32:30 2018 +0530
     
-        fix on menu fix in ipad size 768px where menu disappears. Fixed media query
+        Revert temporary hack
     
