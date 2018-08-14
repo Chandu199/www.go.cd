@@ -1,9 +1,9 @@
-Last updated: 2018-08-09 03:17:04 -0700
+Last updated: 2018-08-14 10:07:16 -0700
 
 Latest commit:
-    commit f0dbfa9a106c5691e51d80001c460b0833816c7d
+    commit 520aab2126f53fe3991181bc433c89e23c78125e
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Thu Aug 9 15:43:45 2018 +0530
+    Date:   Tue Aug 14 17:02:45 2018 +0530
     
-        removed extra semi colons
+        change in order of featuyres in mobile
     
