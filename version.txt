@@ -1,9 +1,9 @@
-Last updated: 2018-08-16 01:46:05 -0700
+Last updated: 2018-08-16 02:45:21 -0700
 
 Latest commit:
-    commit 51ed2da5f1a877efaf2c9a2eff8b790274c8bfd4
+    commit b70cb0fb7403a9fd93df5c16c9439658fa66cf3b
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Thu Aug 16 14:11:16 2018 +0530
+    Date:   Thu Aug 16 15:12:17 2018 +0530
     
-        change in learn-more banner section
+        change in illustrations
     
