@@ -1,9 +1,9 @@
-Last updated: 2018-08-14 10:07:16 -0700
+Last updated: 2018-08-16 01:43:42 -0700
 
 Latest commit:
-    commit 520aab2126f53fe3991181bc433c89e23c78125e
+    commit 4b88be14e8438a9bf1c6e00e811f06fac44ecc15
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Tue Aug 14 17:02:45 2018 +0530
+    Date:   Thu Aug 16 14:11:16 2018 +0530
     
-        change in order of featuyres in mobile
+        change in learn-more banner section
     
