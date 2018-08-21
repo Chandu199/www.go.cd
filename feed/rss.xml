@@ -5,10 +5,21 @@
   <id>http://localhost:4567/blog</id>
   <link href="http://localhost:4567/blog"/>
   <link href="http://localhost:4567/feed/rss.xml" rel="self"/>
-  <updated>2018-07-31T00:00:00Z</updated>
+  <updated>2018-08-21T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Replacing GoCD with GoCD</title>
+    <link rel="alternate" href="http://localhost:4567/2018/08/21/replacing-gocd-with-gocd.html"/>
+    <id>http://localhost:4567/2018/08/21/replacing-gocd-with-gocd.html</id>
+    <published>2018-08-21T00:00:00Z</published>
+    <updated>2018-08-21T00:00:00Z</updated>
+    <author>
+      <name>Ken Mugrage</name>
+    </author>
+    <content type="html">In this post, we'll look at three considerations for your microservices configuration strategy.</content>
+  </entry>
   <entry>
     <title>Configuration Strategy for Continuous Delivery of Microservices</title>
     <link rel="alternate" href="http://localhost:4567/2018/07/31/cd-microservices-configuration-strategy.html"/>
@@ -107,16 +118,5 @@
       <name>Sheroy Marker</name>
     </author>
     <content type="html">GoCD is excited to announce the release of our Kubernetes Helm Chart that will allow our users to run GoCD natively on Kubernetes. </content>
-  </entry>
-  <entry>
-    <title>Running your end to end tests on Kubernetes</title>
-    <link rel="alternate" href="http://localhost:4567/2018/02/27/running-end-to-end-tests-kubernetes.html"/>
-    <id>http://localhost:4567/2018/02/27/running-end-to-end-tests-kubernetes.html</id>
-    <published>2018-02-27T00:00:00Z</published>
-    <updated>2018-02-27T00:00:00Z</updated>
-    <author>
-      <name>Jean Baudin</name>
-    </author>
-    <content type="html">In post Jean Baudin of Travix talks about how they ran their end to end tests on Kubernetes.</content>
   </entry>
 </feed>
