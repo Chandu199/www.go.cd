@@ -1,9 +1,9 @@
-Last updated: 2018-08-24 02:42:39 -0700
+Last updated: 2018-08-24 10:24:42 -0700
 
 Latest commit:
-    commit 67ac0dbab16ef0a8c3633a1233636b39f0a0d730
+    commit 336d31aa2317b8cc44585c7f62b1ba93444c3743
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Fri Aug 24 15:09:11 2018 +0530
+    Date:   Fri Aug 24 22:51:45 2018 +0530
     
-        Updated illustrations with the latest one
+        Removed unwanted code
     
