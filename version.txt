@@ -1,9 +1,9 @@
-Last updated: 2018-08-24 12:26:44 -0700
+Last updated: 2018-08-27 23:41:29 -0700
 
 Latest commit:
-    commit 195914c7ff0216dd871701d28ee9e2ae5de9f6b1
+    commit 8d05b7e3357634ee533c853f0d72b7e8d73417af
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Fri Aug 24 22:51:45 2018 +0530
+    Date:   Tue Aug 28 12:08:11 2018 +0530
     
-        Removed unwanted code
+        Bug fix on learn more button
     
