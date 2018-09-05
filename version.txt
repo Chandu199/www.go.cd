@@ -1,10 +1,10 @@
-Last updated: 2018-09-05 14:58:18 -0700
+Last updated: 2018-09-05 15:04:30 -0700
 
 Latest commit:
-    commit a70b31468f6411210198814808d4b14f47ebd15e
-    Merge: 396bad0 792f4cb
+    commit c8124dc1c8e702cd2bff68196884ee1c0cc27381
+    Merge: 396bad0 254f6b2
     Author: GoCD Build User <go-cd@googlegroups.com>
-    Date:   Wed Sep 5 14:56:18 2018 -0700
+    Date:   Wed Sep 5 15:03:34 2018 -0700
     
         Merge branch 'branch-with-code' into analytics-trial-landing-page-sept-2018
     
