@@ -1,9 +1,10 @@
-Last updated: 2018-08-30 13:23:44 -0700
+Last updated: 2018-09-04 23:29:02 -0700
 
 Latest commit:
-    commit 459721731f9b6a7cccd2dd562db7d434a12af680
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Aug 28 14:56:15 2018 -0700
+    commit 7650f8eeb55a2f751a56519513cd8b561d0fa5fe
+    Merge: c7c767d 591e6e4
+    Author: GoCD Build User <go-cd@googlegroups.com>
+    Date:   Tue Sep 4 23:27:51 2018 -0700
     
-        added link to kubernetes page
+        Merge branch 'branch-with-code' into analytics-trial-landing-page-sept-2018
     
