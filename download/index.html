@@ -15,8 +15,8 @@
 
     <title>Download for Free - Server and Agent | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-1f28f7a4.css" rel="stylesheet" />
-    <script src="../assets/javascripts/all-5da2c5d4.js"></script>
+    <link href="../assets/stylesheets/site-18f15dc6.css" rel="stylesheet" />
+    <script src="../assets/javascripts/all-dfc7a865.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
     <script>
@@ -33,7 +33,7 @@
     <nav class="mainnav">
       <ul class="level0">
         <li><a href="../why-gocd/" class="link_whygocd" analytics-label="link_whygocd">Features</a></li>
-        <li><a href="../resources.html" class="link_documentation" analytics-label="link_help&gt;link_documentation">Documentation</a></li>
+        <li><a href="https://docs.gocd.org/current/" class="link_documentation" analytics-label="link_help&gt;link_documentation">Documentation</a></li>
         <li><a href="../blog/" class="link_blog" analytics-label="Blog">Blog</a></li>
 
         <li class="dropdown"><a href="../enterprise/" class="link_enterprise" analytics-label="Enterprise">Enterprise</a>
@@ -65,8 +65,8 @@
 </div>
 <main>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-3 sidebar">
+    <div class="row dowload-content-container">
+      <div class="sidebar-left">
         <button class="download-btn"><i class="fa fa-bars"></i></button>
 
         <nav class="sidebar-nav download-nav">
@@ -92,7 +92,7 @@
           </ul>
         </nav>
       </div>
-      <div class="col-sm-8 col-md-6">
+      <div class="main-content">
         <script id="verify-checksum-message-template" type="text/x-handlebars-template">
           <div class="verify-checksum-message">
             <div class="content">
@@ -138,7 +138,7 @@
         <div id="downloads"></div>
       </div>
 
-      <div class="col-sm-4 col-lg-3 col-md-3">
+      <div class="sidebar-right">
         <div class='subscribe-to-blog blogpost'>
           <h3 class='subscribe-title'>Want updates about GoCD releases?</h3>
           <p>Subscribe to the GoCD Release Bulletin for monthly email updates on the latest GoCD releases.</p>
@@ -149,6 +149,12 @@
           <script defer="true" src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script>
           <script defer="true" src="../assets/javascripts/marketo_popover-a55210a4.js" onload="new MarketoForm('//app-e.marketo.com', '199-QDE-291').init(6699)"></script>
         </div>
+        <div class="subscribe-band">
+          <p class="subscribe-band_text">
+          We offer a free 30-day trial for our support services
+          </p>
+<a href="../enterprise/support/#signup-form">            <button class="subscribe-band_cta">Try Now</button>
+</a>        </div>
       </div>
     </div>
   </div>
@@ -483,6 +489,7 @@
     <div id="verify-checksum-message"></div>
   </div>
 </script>
+
 <script>
   // <![CDATA[
   jQuery(document).ready(function ($) {
