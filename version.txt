@@ -1,9 +1,10 @@
-Last updated: 2018-10-25 03:20:19 -0700
+Last updated: 2018-11-01 23:35:54 -0700
 
 Latest commit:
-    commit 13b0d7e98ded68cd155e06c3fccdb431cf329cb0
+    commit e7f7eb222164d8ed13cc027c01703b442ee7b08b
+    Merge: c038c7b 5dc4dd7
     Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Thu Oct 25 15:46:48 2018 +0530
+    Date:   Fri Nov 2 12:03:48 2018 +0530
     
-        fine tune on buttons and blog post
+        Merge branch 'master' of https://github.com/gocd/www.go.cd into support-trail
     
