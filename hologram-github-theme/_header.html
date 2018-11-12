@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title><%= title %> <% if title != '' %>&ndash;<% end %> <%= @config['global_title'] %></title>
+
+    <!-- Styleguide CSS -->
+    <!-- Source CSS -->
+    <% if @config['css_include'].to_s.strip.length != 0 %>
+      <% @config['css_include'].each do |css| %>
+        <link rel="stylesheet" href="<%= css %>">
+      <% end %>
+    <% end %>
+</head>
+
+  <body class="inner">  
+    <div class="hgt-pagehead">
+      <div class="hgt-container">
+        <h1 class="hgt-pagehead-title"><%= @config['global_title'] %></h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hgt-columns">
+        <% unless @blocks.length == 0 %>
+          <div class="hgt-column one-fourth">
+            <nav class="hgt-menu">
+              <% @blocks.each do |block| %>
+                <% if not block[:parent] %>
+                  <a href="#<%= block[:name] %>" class="hgt-menu-item"><%= block[:title] %></a>
+                <% end %>
+              <% end %>
+            </nav>
+          </div>
+        <% end %>
+
+        <div class="container hgt-column <% unless @blocks.length == 0 %>three-fourths<% end %>">
+          <div class="hgt-content">
