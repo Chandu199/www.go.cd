@@ -2,7 +2,7 @@
 layout: campaignlanding
 title: "Download the CD101 eBook"
 title_tag_of_header: "Free Guide - Introduction to Continuous Delivery | GoCD"
-page_caption: 
+page_caption:
 meta_description: ""
 meta_keywords: ""
 show_features: true
@@ -10,42 +10,45 @@ show_features: true
 <div class="cd101">
   <!-- banner image goes here -->
   <% content_for :banner do %>
-      <%= image_tag 'campaign/cd101/cd101-banner2.png', alt: 'Download the CD101 eBook', title: "Download the CD101 eBook" %>
+  <%= image_tag 'campaign/cd101/cd101-banner2.png', alt: 'Download the CD101 eBook', title: "Download the CD101 eBook" %>
   <% end %>
 
   <% content_for :maincontent do %>
-    <div class="container">
-      <div class="full-w_item">
-        <h1>Free Guide: Introduction to Continuous Delivery</h1>
-      </div>
-
-      <div class="flex-items-container">
-        <div class="flex-item_sm">
-          <%= image_tag 'campaign/cd101/815-booklet-mockup.jpg', alt: 'Download the CD101 eBook', title: "Download the CD101 eBook" %>
-        </div>
-
-        <div class="flex-item_md content_cd101">
-
-          <h3><b>Want to deploy code faster? React to changes quickly? Release more frequently?</b></h3>
-          
-          <p>In this Continuous Delivery 101 eBook, we’ll take you back to the  basics. Inside you’ll find a reference guide with visuals on key concepts.</p>     
-        
-          <ul>
-            <li>What is continuous integration?</li>
-            <li>What is continuous delivery and continuous deployment? Are they different?</li>
-            <li>What is DevOps and how can you benefit from it?</li>
-            <li>Is your team ready for continuous delivery?</li>
-          </ul>
-
-          <p>We also explore core development practices that are prerequisites for continuous delivery. We present questions you need to answer honestly about your own people, teams, and organization to determine your readiness for continuous delivery.</p>
-        </div>
-      </div>
-      
-        <%= link_to 'Download for free', "/assets/images/campaign/cd101/ebook-continuous-delivery-101.pdf", {:class => "btn  button-brand cd101-cta", "analytics-label" => "campaign-download-cta"} %>
-      
+  <div class="container">
+    <div class="full-w_item">
+      <h1>Free Guide: Introduction to Continuous Delivery</h1>
     </div>
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-571784c91d5449dd"></script>
-    <% end %>
+    <div class="flex-items-container">
+      <div class="flex-item_sm">
+        <%= image_tag 'campaign/cd101/815-booklet-mockup.jpg', alt: 'Download the CD101 eBook', title: "Download the CD101 eBook" %>
+      </div>
+
+      <div class="flex-item_md content_cd101">
+
+        <h3><b>Want to deploy code faster? React to changes quickly? Release more frequently?</b></h3>
+
+        <p>In this Continuous Delivery 101 eBook, we’ll take you back to the basics. Inside you’ll find a reference
+          guide with visuals on key concepts.</p>
+
+        <ul>
+          <li>What is continuous integration?</li>
+          <li>What is continuous delivery and continuous deployment? Are they different?</li>
+          <li>What is DevOps and how can you benefit from it?</li>
+          <li>Is your team ready for continuous delivery?</li>
+        </ul>
+
+        <p>We also explore core development practices that are prerequisites for continuous delivery. We present
+          questions you need to answer honestly about your own people, teams, and organization to determine your
+          readiness for continuous delivery.</p>
+      </div>
+    </div>
+
+    <%= link_to 'Download for free', "/assets/images/campaign/cd101/ebook-continuous-delivery-101.pdf", {:class => "btn  button-brand cd101-cta", "analytics-label" => "campaign-download-cta"} %>
+
+  </div>
+
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-571784c91d5449dd"></script>
+  <% end %>
 </div>

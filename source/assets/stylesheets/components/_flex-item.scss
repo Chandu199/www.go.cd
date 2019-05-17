@@ -1,3 +1,35 @@
+/*doc
+---
+title: Flex 
+name: flex-component
+category: index
+---
+
+Style for Button Component
+
+```html_example
+  <div class="flex-items-container">
+      <div class="flex-item_sm"> 
+        <p>LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum. Sint veniam excepteur sint magna. Ipsum sit officia occaecat consectetur est proident magna excepteur in aliquip nulla duis. Cillum et laborum</p>
+      </div>
+
+      <div class="flex-item_md">
+        <ul>
+          <li>LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum.</li>
+          <li>LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum.</li>
+          <li>LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum.</li>
+          <li>LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum.</li>
+        </ul>
+
+        <p>
+          LoremAliqua adipisicing mollit laborum magna aliqua minim in Lorem laborum. Sint veniam excepteur sint magna. Ipsum sit officia occaecat consectetur est proident magna excepteur in aliquip nulla duis. Cillum et laborum
+        </p>
+      </div>
+    </div>
+```
+*/
+
+
 .flex-items-container {
   display: flex;
   flex-wrap: wrap;
