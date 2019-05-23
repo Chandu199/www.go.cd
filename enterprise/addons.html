@@ -15,8 +15,8 @@
 
     <title>GoCD - Continuous Delivery</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-9f7972ad.css" rel="stylesheet" />
-    <script src="../assets/javascripts/all-dfc7a865.js"></script>
+    <link href="../assets/stylesheets/site-85fc00c5.css" rel="stylesheet" />
+    <script src="../assets/javascripts/all-30827340.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
     <script>
@@ -45,7 +45,7 @@
             <li><a href="contact/" class="link_contact">Contact</a></li>
           </ul>
         </li>
-        <li><a href="../download/" class="download-btn-header" analytics-label="Download">Download</a></li>
+        <li><a href="../download/" class="link_download" analytics-label="Download">Download</a></li>
       </ul>
     </nav>
     <button class="navbtn menu collapse">
@@ -96,11 +96,13 @@
           <li class="left-align-text"> Which jobs are slowest? </li>
           <li class="left-align-text"> Do we need to add more resources? </li>
         </ul>
-        <p>For additional information on our analytics plugin, <a href="../analytics.html">visit here</a>.</p>
+        <hr class="addons-highlight-border-top"/>
+        <span class="addons-highlight">For additional information on our analytics plugin, <a href="../analytics.html">visit here</a>.</span>
+        <hr class="addons-highlight-border-bottom"/>
       </div>
     </div>
 
-    <hr class="mobile-border" />
+    <hr class="mobile-border"/>
 
     <div class="grid-container">
       <div class="content-card-six-column">
@@ -125,11 +127,9 @@
         <h2 class="text-center mobile-section-title">Elastic Build Agents</h2>
         <p class="justified-content">
           GoCD supports elastic builds across a number of cloud infrastructure providers such as Docker Swarm and Kubernetes.
-          Our Enterprise offering adds support for elastic builds on Amazon ECS. </p>
+          Our Enterprise offering adds support for elastic builds on Amazon ECS and Microsoft Azure.</p>
         <p class="justified-content">  
-          This Elastic Agent Plugin for Amazon EC2 Container Service gives you the flexibility to autoscale your builds an ECS cluster.
-          It does so by creating agents dynamically in response to build workload. This dynamic scheduling of agents and build
-          infrastructure allows you to optimize utilization and reduce cost.
+          With these plugins, GoCD will take care of spinning up, shutting down EC2 instances or Azure virtual machines based on the need of your deployment pipeline, thus removing bottlenecks and reducing the cost of your agent infrastructure.
         </p>
       </div>
 
@@ -192,16 +192,17 @@
         <div class="col-md-2">
           <ul class="unordered-list">
             <li><a href="../download/">DOWNLOAD GoCD</a></li>
-            <li><a href="../getting-started/part-1/">GETTING STARTED</a></li>
-            <li><a href="../plugins/">PLUGINS</a></li>
+            <li><a href="../getting-started/part-1/">INTRO TO GoCD</a></li>
+            <li><a href="../test-drive-gocd.html">TEST DRIVE GoCD</a></li>
+
           </ul>
         </div>
 
         <div class="col-md-2">
           <ul class="unordered-list">
-            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
+            <li><a href="../plugins/">PLUGINS</a></li>
             <li><a href="../resources/">RESOURCES</a></li>
-            <li><a href="../contribute/">CONTRIBUTE</a></li>
+            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
           </ul>
         </div>
 
@@ -209,7 +210,7 @@
           <ul class="unordered-list">
             <li><a href="https://www.github.com/gocd" target="_blank">FORK US ON GITHUB</a></li>
             <li><a href="https://brandfolder.com/twproducts">LOGOS + BRAND</a> </li>
-            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
+            <li><a href="../contribute/">CONTRIBUTE</a></li>
           </ul>
         </div>
 
@@ -217,6 +218,7 @@
           <ul class="unordered-list">
             <li><a href="support/">ENTERPRISE SUPPORT</a> </li>
             <li><a href="https://support.thoughtworks.com/hc/en-us/requests/new" target="_blank">SUBMIT A TICKET</a></li>
+            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
           </ul>
         </div>
 

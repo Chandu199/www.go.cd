@@ -15,8 +15,8 @@
 
     <title>Supported Plugins | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-9f7972ad.css" rel="stylesheet" />
-    <script src="../assets/javascripts/all-dfc7a865.js"></script>
+    <link href="../assets/stylesheets/site-85fc00c5.css" rel="stylesheet" />
+    <script src="../assets/javascripts/all-30827340.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
     <script>
@@ -45,7 +45,7 @@
             <li><a href="../enterprise/contact/" class="link_contact">Contact</a></li>
           </ul>
         </li>
-        <li><a href="../download/" class="download-btn-header" analytics-label="Download">Download</a></li>
+        <li><a href="../download/" class="link_download" analytics-label="Download">Download</a></li>
       </ul>
     </nav>
     <button class="navbtn menu collapse">
@@ -138,7 +138,7 @@
                   <li>
                     <span class="logo"></span>
                     <div class="details">
-                      
+                      <img src="../assets/images/go-logo-small-0cc554b3.png" class="go-logo" alt="GoCD logo" />
                       <h5 class="name"> Docker Registry Artifact Plugin </h5>
                       <p class="more-details">
                         The docker registry artifact plugin provides a way to push and pull docker images on GoCD
@@ -376,7 +376,7 @@
                       <h5 class="name"> GoCD Guest Login Authentication plugin </h5>
                       <p class="more-details">
                         The plugin allows user to login in GoCD as a guest user
-                        <a href="https://github.com/gocd-contrib/guest-login-plugin">Read more</a>
+                        <a href="https://github.com/gocd-contrib/gocd-guest-login-plugin">Read more</a>
                       </p>
                       <span class="created-by">by
                         <a href="https://github.com/gocd-contrib">GoCD Contributors</a>
@@ -385,7 +385,7 @@
                     <div class="actions">
                         <div class="download-plugin">
                           <i class="fa fa-download"></i>
-                          <a href="https://github.com/gocd-contrib/guest-login-plugin/releases">Download</a>
+                          <a href="https://github.com/gocd-contrib/gocd-guest-login-plugin/releases">Download</a>
                         </div>
                     </div>
                   </li>
@@ -498,6 +498,26 @@
                       <p class="more-details">
                         GoCD Elastic Agent Plugin for Amazon Elastic Container Service
                         <a href="https://extensions-docs.gocd.org/ecs/current/">Read more</a>
+                      </p>
+                      <span class="created-by">by
+                        <a href="https://www.thoughtworks.com/products/">ThoughtWorks Inc.</a>
+                      </span>
+                    </div>
+                    <div class="actions">
+                        <div class='contactus-plugin'>
+                          <a href="https://www.gocd.org/enterprise/pricing/">Buy from ThoughtWorks</a>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="logo"></span>
+                    <div class="details">
+                      <img src="../assets/images/go-logo-small-0cc554b3.png" class="go-logo" alt="GoCD logo" />
+                      <h5 class="name"> Microsoft Azure Elastic Agent </h5>
+                      <span class="paid">Paid</span>
+                      <p class="more-details">
+                        GoCD Elastic Agent Plugin for bringing up GoCD agents on Microsoft Azure virtual machines.
+                        <a href="https://extensions-docs.gocd.org/azure/current/">Read more</a>
                       </p>
                       <span class="created-by">by
                         <a href="https://www.thoughtworks.com/products/">ThoughtWorks Inc.</a>
@@ -1853,7 +1873,7 @@
                       <h5 class="name"> Docker pipeline plugin </h5>
                       <p class="more-details">
                         Builds a docker image from a Dockerfile, tags it and pushes it to a registry.
-                        <a href="https://github.com/Haufe-Lexware/gocd-plugins/wiki/Docker-pipeline-plugin">Read more</a>
+                        <a href="https://github.com/Haufe-Lexware/gocd-plugins/wiki/Docker-plugin">Read more</a>
                       </p>
                       <span class="created-by">by
                         <a href="https://github.com/bradeac">Camil Bradea</a>
@@ -2090,6 +2110,26 @@
                     <span class="logo"></span>
                     <div class="details">
                       <img src="../assets/images/go-logo-small-0cc554b3.png" class="go-logo" alt="GoCD logo" />
+                      <h5 class="name"> Microsoft Azure Elastic Agent </h5>
+                      <span class="paid">Paid</span>
+                      <p class="more-details">
+                        GoCD Elastic Agent Plugin for bringing up GoCD agents on Microsoft Azure virtual machines.
+                        <a href="https://www.gocd.org/enterprise/addons/">Read more</a>
+                      </p>
+                      <span class="created-by">by
+                        <a href="https://www.thoughtworks.com/products/">ThoughtWorks Inc.</a>
+                      </span>
+                    </div>
+                    <div class="actions">
+                        <div class='contactus-plugin'>
+                          <a href="https://www.gocd.org/enterprise/pricing/">Buy from ThoughtWorks</a>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="logo"></span>
+                    <div class="details">
+                      <img src="../assets/images/go-logo-small-0cc554b3.png" class="go-logo" alt="GoCD logo" />
                       <h5 class="name"> LDAP&#x2F;AD Authorization Plugin </h5>
                       <span class="paid">Paid</span>
                       <p class="more-details">
@@ -2181,16 +2221,17 @@
         <div class="col-md-2">
           <ul class="unordered-list">
             <li><a href="../download/">DOWNLOAD GoCD</a></li>
-            <li><a href="../getting-started/part-1/">GETTING STARTED</a></li>
-            <li><a href="./">PLUGINS</a></li>
+            <li><a href="../getting-started/part-1/">INTRO TO GoCD</a></li>
+            <li><a href="../test-drive-gocd.html">TEST DRIVE GoCD</a></li>
+
           </ul>
         </div>
 
         <div class="col-md-2">
           <ul class="unordered-list">
-            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
+            <li><a href="./">PLUGINS</a></li>
             <li><a href="../resources/">RESOURCES</a></li>
-            <li><a href="../contribute/">CONTRIBUTE</a></li>
+            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
           </ul>
         </div>
 
@@ -2198,7 +2239,7 @@
           <ul class="unordered-list">
             <li><a href="https://www.github.com/gocd" target="_blank">FORK US ON GITHUB</a></li>
             <li><a href="https://brandfolder.com/twproducts">LOGOS + BRAND</a> </li>
-            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
+            <li><a href="../contribute/">CONTRIBUTE</a></li>
           </ul>
         </div>
 
@@ -2206,6 +2247,7 @@
           <ul class="unordered-list">
             <li><a href="../enterprise/support/">ENTERPRISE SUPPORT</a> </li>
             <li><a href="https://support.thoughtworks.com/hc/en-us/requests/new" target="_blank">SUBMIT A TICKET</a></li>
+            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
           </ul>
         </div>
 

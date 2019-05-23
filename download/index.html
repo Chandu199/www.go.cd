@@ -15,8 +15,8 @@
 
     <title>Download for Free - Server and Agent | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-9f7972ad.css" rel="stylesheet" />
-    <script src="../assets/javascripts/all-dfc7a865.js"></script>
+    <link href="../assets/stylesheets/site-85fc00c5.css" rel="stylesheet" />
+    <script src="../assets/javascripts/all-30827340.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
     <script>
@@ -45,7 +45,7 @@
             <li><a href="../enterprise/contact/" class="link_contact">Contact</a></li>
           </ul>
         </li>
-        <li><a href="./" class="download-btn-header" analytics-label="Download">Download</a></li>
+        <li><a href="./" class="link_download" analytics-label="Download">Download</a></li>
       </ul>
     </nav>
     <button class="navbtn menu collapse">
@@ -63,6 +63,7 @@
     </div>
   </div>
 </div>
+
 <main>
   <div class="container">
     <div class="row dowload-content-container">
@@ -147,7 +148,7 @@
             <div class="form-loading-error"></div>
           </div>
           <script defer="true" src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script>
-          <script defer="true" src="../assets/javascripts/marketo_popover-a55210a4.js" onload="new MarketoForm('//app-e.marketo.com', '199-QDE-291').init(6699)"></script>
+          <script defer="true" src="../assets/javascripts/marketo_popover-dbbdf145.js" onload="new MarketoForm('//app-e.marketo.com', '199-QDE-291').init(6699)"></script>
         </div>
         <div class="subscribe-band">
           <p class="subscribe-band_text">
@@ -159,6 +160,19 @@
       </div>
     </div>
   </div>
+
+    <div class="banner-fixed-bottom slide-in-bottom">
+      <div class="banner-fixed_text-container">
+        <a href="../analytics-feedback.html" class="fixed-banner_link">
+        <p>Get weekly surprise gifts and free books. Join the GoCD feedback program. 
+			    <span class="bold">Click this banner to learn more.</span>
+        </p>
+        </a>
+      </div>
+      <i class="fa fa-times-circle fixed-banner-close"></i>
+    </div>
+  
+
 </main>
 
 <script id="downloads-help-links" type="text/x-handlebars-template">
@@ -306,29 +320,35 @@
 
   {{#*inline "show-ami-release"}}
   <h3>Demo AMI</h3>
-  {{> ami-table amis=demo_amis}}
+  {{> ami-table-with-dropdown amis=demo_amis}}
+
   <h3>Server AMI</h3>
-  {{#size server_amis 'eq' 1}}
-   <table class="table">
+  {{> ami-table-with-dropdown amis=server_amis}}
+  {{/inline}}
+
+
+  {{#*inline "ami-table-with-dropdown"}}
+  {{#size amis 'eq' 1}}
+  <table class="table">
     <tr>
       <th>Region</th>
       <th>AMI ID</th>
     </tr>
-    <tr class="{{server_amis.0.region}}">
-      <td>{{server_amis.0.region}}</td>
-      <td><a href="{{server_amis.0.href}}">{{server_amis.0.ami_id}}</a></td>
+    <tr class="{{amis.0.region}}">
+      <td>{{amis.0.region}}</td>
+      <td><a href="{{amis.0.href}}">{{amis.0.ami_id}}</a></td>
     </tr>
   </table>
   {{/size}}
-  {{#size server_amis 'gt' 1}}
+  {{#size amis 'gt' 1}}
   <div>Select a region</div>
   <div class="table-c">
     <select id="{{go_version}}" class="select-dropdown">
-      {{#each server_amis}}
+      {{#each amis}}
       <option value="{{region}}">{{region}}</option>
       {{/each}}
     </select>
-    {{> ami-table amis=server_amis}}
+    {{> ami-table amis=amis}}
   </div>
   {{/size}}
   {{/inline}}
@@ -571,16 +591,17 @@
         <div class="col-md-2">
           <ul class="unordered-list">
             <li><a href="./">DOWNLOAD GoCD</a></li>
-            <li><a href="../getting-started/part-1/">GETTING STARTED</a></li>
-            <li><a href="../plugins/">PLUGINS</a></li>
+            <li><a href="../getting-started/part-1/">INTRO TO GoCD</a></li>
+            <li><a href="../test-drive-gocd.html">TEST DRIVE GoCD</a></li>
+
           </ul>
         </div>
 
         <div class="col-md-2">
           <ul class="unordered-list">
-            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
+            <li><a href="../plugins/">PLUGINS</a></li>
             <li><a href="../resources/">RESOURCES</a></li>
-            <li><a href="../contribute/">CONTRIBUTE</a></li>
+            <li> <a href="../events/">WEBINARS + EVENTS</a></li>
           </ul>
         </div>
 
@@ -588,7 +609,7 @@
           <ul class="unordered-list">
             <li><a href="https://www.github.com/gocd" target="_blank">FORK US ON GITHUB</a></li>
             <li><a href="https://brandfolder.com/twproducts">LOGOS + BRAND</a> </li>
-            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
+            <li><a href="../contribute/">CONTRIBUTE</a></li>
           </ul>
         </div>
 
@@ -596,6 +617,7 @@
           <ul class="unordered-list">
             <li><a href="../enterprise/support/">ENTERPRISE SUPPORT</a> </li>
             <li><a href="https://support.thoughtworks.com/hc/en-us/requests/new" target="_blank">SUBMIT A TICKET</a></li>
+            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
           </ul>
         </div>
 

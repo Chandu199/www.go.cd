@@ -5,12 +5,67 @@
   <id>http://localhost:4567/blog</id>
   <link href="http://localhost:4567/blog"/>
   <link href="http://localhost:4567/feed.xml" rel="self"/>
-  <updated>2018-10-30T00:00:00Z</updated>
+  <updated>2019-05-21T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Why measure your CD process</title>
+    <title>Effect of Java licensing changes on GoCD</title>
+    <link rel="alternate" href="http://localhost:4567/2019/05/21/official-stance-on-java.html"/>
+    <id>http://localhost:4567/2019/05/21/official-stance-on-java.html</id>
+    <published>2019-05-21T00:00:00Z</published>
+    <updated>2019-05-21T00:00:00Z</updated>
+    <author>
+      <name>GoCD Team</name>
+    </author>
+    <content type="html">Due to Java licensing changes by Oracle, GoCD's support for Java is changing.</content>
+  </entry>
+  <entry>
+    <title>Installing and Configuring GoCD on GKE using Helm</title>
+    <link rel="alternate" href="http://localhost:4567/2019/05/14/installing-configuring-gocd-gke-using-helm.html"/>
+    <id>http://localhost:4567/2019/05/14/installing-configuring-gocd-gke-using-helm.html</id>
+    <published>2019-05-14T00:00:00Z</published>
+    <updated>2019-05-14T00:00:00Z</updated>
+    <author>
+      <name>Mohamed Najiullah</name>
+    </author>
+    <content type="html">Understand the steps needed to install and configure GoCD on GKE using Helm while looking at the possibility of migrating your CI/CD infrastructure to Kubernetes</content>
+  </entry>
+  <entry>
+    <title>Use OpenLDAP for User Authentication in GoCD</title>
+    <link rel="alternate" href="http://localhost:4567/2019/03/19/user-authorization-ldap.html"/>
+    <id>http://localhost:4567/2019/03/19/user-authorization-ldap.html</id>
+    <published>2019-03-19T00:00:00Z</published>
+    <updated>2019-03-19T00:00:00Z</updated>
+    <author>
+      <name>Ankit Srivistava</name>
+    </author>
+    <content type="html">Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD</content>
+  </entry>
+  <entry>
+    <title>Continuous Delivery Metrics Part 3&amp;#58; How long does it take to get from committing code to production?</title>
+    <link rel="alternate" href="http://localhost:4567/2019/01/14/cd-metrics-deployment-lead-time.html"/>
+    <id>http://localhost:4567/2019/01/14/cd-metrics-deployment-lead-time.html</id>
+    <published>2019-01-14T00:00:00Z</published>
+    <updated>2019-01-14T00:00:00Z</updated>
+    <author>
+      <name>Aravind S.V and Suzie Prince</name>
+    </author>
+    <content type="html">This is the third post in the series - Actionable Continuous Delivery Metrics. Here we'll analyze lead time, the duration of time it takes to deployment</content>
+  </entry>
+  <entry>
+    <title>Continuous Delivery Metrics Part 2&amp;#58; How often do you deploy to production?</title>
+    <link rel="alternate" href="http://localhost:4567/2018/11/30/deployment-frequency.html"/>
+    <id>http://localhost:4567/2018/11/30/deployment-frequency.html</id>
+    <published>2018-11-30T00:00:00Z</published>
+    <updated>2018-11-30T00:00:00Z</updated>
+    <author>
+      <name>Aravind S.V and Suzie Prince</name>
+    </author>
+    <content type="html">This is the second post in the series - Actionable Continuous Delivery Metrics. Here we’ll dive deep into the first metric: deployment frequency. </content>
+  </entry>
+  <entry>
+    <title>Continuous Delivery Metrics Part 1&amp;#58; Why measure your CD process</title>
     <link rel="alternate" href="http://localhost:4567/2018/10/30/measure-continuous-delivery-process.html"/>
     <id>http://localhost:4567/2018/10/30/measure-continuous-delivery-process.html</id>
     <published>2018-10-30T00:00:00Z</published>
@@ -63,60 +118,5 @@
       <name>Sheroy Marker</name>
     </author>
     <content type="html">In this post, we'll look at three considerations for your microservices configuration strategy.</content>
-  </entry>
-  <entry>
-    <title>Improving GoCD through usage analytics</title>
-    <link rel="alternate" href="http://localhost:4567/2018/07/24/gocd-usage-analytics.html"/>
-    <id>http://localhost:4567/2018/07/24/gocd-usage-analytics.html</id>
-    <published>2018-07-24T00:00:00Z</published>
-    <updated>2018-07-24T00:00:00Z</updated>
-    <author>
-      <name>GoCD Team</name>
-    </author>
-    <content type="html">GoCD started collecting and analyzing usage data in 18.7. This post explains the data collected and how to turn it off.</content>
-  </entry>
-  <entry>
-    <title>How to Work with Materials in GoCD</title>
-    <link rel="alternate" href="http://localhost:4567/2018/07/17/gocd-materials-blacklisting-whitelisting.html"/>
-    <id>http://localhost:4567/2018/07/17/gocd-materials-blacklisting-whitelisting.html</id>
-    <published>2018-07-17T00:00:00Z</published>
-    <updated>2018-07-17T00:00:00Z</updated>
-    <author>
-      <name>Ankit Srivastava</name>
-    </author>
-    <content type="html">Learn more about how to use materials in GoCD, including understanding more about blacklisting and whitelisting</content>
-  </entry>
-  <entry>
-    <title>Configuration Strategy for Continuous Delivery of Microservices</title>
-    <link rel="alternate" href="http://localhost:4567/2018/07/11/cd-microservices-configuration-strategy.html"/>
-    <id>http://localhost:4567/2018/07/11/cd-microservices-configuration-strategy.html</id>
-    <published>2018-07-11T00:00:00Z</published>
-    <updated>2018-07-11T00:00:00Z</updated>
-    <author>
-      <name>Sheroy Marker</name>
-    </author>
-    <content type="html">This post talks about the best ways to manage your configurations for continuous delivery of a microservices setup.</content>
-  </entry>
-  <entry>
-    <title>Environment Strategy for Continuous Delivery of Microservices</title>
-    <link rel="alternate" href="http://localhost:4567/2018/06/12/cd-microservices-environment-strategy.html"/>
-    <id>http://localhost:4567/2018/06/12/cd-microservices-environment-strategy.html</id>
-    <published>2018-06-12T00:00:00Z</published>
-    <updated>2018-06-12T00:00:00Z</updated>
-    <author>
-      <name>Sheroy Marker</name>
-    </author>
-    <content type="html">In this post, we'll look at environment strategy including artifact promotion and leveraging modern infrastructure for dynamic environments.</content>
-  </entry>
-  <entry>
-    <title>Continuous Delivery of Microservices - Trunk Based Development and Feature Toggles</title>
-    <link rel="alternate" href="http://localhost:4567/2018/05/30/ci-microservices-feature-toggles-trunk-based-development.html"/>
-    <id>http://localhost:4567/2018/05/30/ci-microservices-feature-toggles-trunk-based-development.html</id>
-    <published>2018-05-30T00:00:00Z</published>
-    <updated>2018-05-30T00:00:00Z</updated>
-    <author>
-      <name>Sheroy Marker</name>
-    </author>
-    <content type="html">Getting deeper into CD practices, we'll cover continuous integration, feature toggles, and the importance of trunk based development</content>
   </entry>
 </feed>

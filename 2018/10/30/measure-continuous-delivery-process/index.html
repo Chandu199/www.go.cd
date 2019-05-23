@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
     <meta content="To understand whether you are improving and delivering on your goals, you need to measure you CD process. Here is an overview of where you should begin" name="description" />
-    <meta content="cd metrics, measure continuous delivery, measure devops, mean time to recover, mttr, cycle time, failure rate" name="keywords" />
+    <meta content="cd metrics, measure continuous delivery, measure devops, mean time to recover, mttr, lead time, failure rate" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
     <meta name="twitter:title" content="Why Measure Your CD Process | GoCD Blog" />
@@ -15,8 +15,8 @@
 
     <title>Why Measure Your CD Process | GoCD Blog</title>
     <link href="../../../../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../../../../assets/stylesheets/site-9f7972ad.css" rel="stylesheet" />
-    <script src="../../../../assets/javascripts/all-dfc7a865.js"></script>
+    <link href="../../../../assets/stylesheets/site-85fc00c5.css" rel="stylesheet" />
+    <script src="../../../../assets/javascripts/all-30827340.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../../feed.xml" />
     <script>
@@ -45,7 +45,7 @@
             <li><a href="../../../../enterprise/contact/" class="link_contact">Contact</a></li>
           </ul>
         </li>
-        <li><a href="../../../../download/" class="download-btn-header" analytics-label="Download">Download</a></li>
+        <li><a href="../../../../download/" class="link_download" analytics-label="Download">Download</a></li>
       </ul>
     </nav>
     <button class="navbtn menu collapse">
@@ -68,14 +68,14 @@
 
     <div class="post-banner">
         <figure>
-<img src="../../../../assets/images/blog/cd-metrics/measure-cd-process-0855a3b2.jpg" alt="Why Measure your CD process"/>
+<img src="../../../../assets/images/blog/cd-metrics/measure-cd-process-0855a3b2.jpg" alt="Continuous Delivery Metrics Part 1: Why Measure your CD process"/>
   </figure>
 
     </div>
 
 
   <header class="blog-post-header">
-    <h1>Why measure your CD process</h1>
+    <h1>Continuous Delivery Metrics Part 1&#58; Why measure your CD process</h1>
     <h4>Aravind S.V and Suzie Prince</h4>
     <p class='tags'>
 <a href="../../../../tags/cd-analytics.html" class="tag">        CD Analytics
@@ -86,7 +86,7 @@
       
 <p>As software and IT become key drivers for innovation in most organizations these days, the speed of software delivery becomes very important to their success. More and more teams are adopting Continuous Delivery (CD) and expect to benefit from the accelerated feedback loop CD offers. To understand whether you are improving and delivering on your goals, you need to measure you CD process.</p>
 
-<p>In this blog series, we will share :</p>
+<p><a href="https://www.gocd.org/tags/cd-analytics.html">In this blog series</a>, we will share :</p>
 
 <ul>
   <li>Why CD metrics are important</li>
@@ -112,13 +112,13 @@
 
 <p><strong>1. Measurement, Feedback, and improvement</strong></p>
 
-<p><img src="../../../../assets/images/blog/cd-metrics/build-learn-measure-3f64a841.jpg" alt="Build, Learn, Measure" /></p>
+<p><img src="../../../../assets/images/blog/cd-metrics/build-learn-measure-649caa06.jpg" alt="Build, Learn, Measure" /></p>
 
 <p>If we consider a feedback cycle like “Build, Measure and Learn”, metrics are a way to set specific and measurable goals, direct activities towards achieving those goals, and help you understand if you are achieving those goals.</p>
 
 <p><strong>2. Predict future behavior</strong></p>
 
-<p>Data will provide you more accurate estimates to your business. For example, if you know your cycle time, you can more accurately answer questions about how long it will take for something to be ready for your customers.</p>
+<p>Data will provide you more accurate estimates to your business. For example, if you know your lead time, you can more accurately answer questions about how long it will take for something to be ready for your customers.</p>
 
 <p>If you are considering parallelizing tasks or removing manual steps in your process, once you have some data about your current process, you can calculate the time savings of these improvement activities. From there, this data could potentially help your organization estimate dollars made or saved by certain specific improvements.</p>
 
@@ -134,25 +134,32 @@
 
 <p>Once you introduce a CD pipeline and have established your path-to-production, the next step is to monitor its efficiency. We do not suggest measuring everything. At a high level here are the four metrics that we suggest using to help monitor your CD process. We’ll go deeper into details in future parts of the series.</p>
 
-<p><strong>1. Throughput</strong></p>
+<p><strong>1. Deployment Frequency a.k.a Throughput</strong></p>
 
-<p>Throughput is a measure of how frequently your team deploys code. This metric is represented as a percentage. It is the answer to the question “how often does code reach a certain point in the CD pipeline”.</p>
+<p>Deployment freqency is a measure of how frequently your team deploys code. This metric is represented as a percentage. It is the answer to the question “how often does code reach a certain point in the CD pipeline”.</p>
 
-<p><strong>2. Cycle Time</strong></p>
+<p><strong>2. Lead Time</strong></p>
 
-<p>Cycle time is a measure of how long it takes from committing code to deploying it to a production environment. This metric is represented as a duration. It is the answer to the question "how long does it take from committing code to it reaching production".</p>
+<p>Lead time is a measure of how long it takes from committing code to deploying it to a production environment. This metric is represented as a duration. It is the answer to the question "how long does it take from committing code to it reaching production".</p>
 
-<p><strong>3. Failure Rate</strong></p>
+<p><strong>3. Change Fail Percentage</strong></p>
 
-<p>Failure rate is a measure of the percentage of changes that result in a failure. This metric is represented as a percentage. It is the answer to questions like “what percentage of changes break builds” and “what percentage of deployments result in a service outage”.</p>
+<p>Change fail percentage is a measure of the percentage of changes that result in a failure. This metric is represented as a percentage. It is the answer to questions like “what percentage of changes break builds” and “what percentage of deployments result in a service outage”.</p>
 
-<p><strong>4. Mean time to recover</strong></p>
+<p><strong>4. Mean time to restore</strong></p>
 
-<p>Mean time to recover (MTTR) is a measure of how long it takes to fix a build failure. This metric is represented as a mean duration. It is the answer to questions like "how long does it take you to restore service during a failed deployment".</p>
+<p>Mean time to restore (MTTR) is a measure of how long it takes to fix a build failure. This metric is represented as a mean duration. It is the answer to questions like "how long does it take you to restore service during a failed deployment".</p>
 
 <h2 id="summary">Summary</h2>
 
-<p>This is the part 1 of our Actionable CD metrics blog series. We talked about why CD metrics are important, and an overview of the important metrics we recommend. In the next post, we will dig deeper into  each metric.</p>
+<p>This is the part 1 of our Actionable CD metrics blog series. We talked about why CD metrics are important, and an overview of the important metrics we recommend. <a href="https://www.gocd.org/2018/11/30/deployment-frequency/">In the next post</a>, we will dig deeper into each metric.</p>
+
+<div class="cornered-banner">
+  <p class="cornered-banner_content">
+    Free GoCD Analytics trial is available
+  </p>
+  <a href="../../../../analytics.html" class="cornered-banner_cta">SIGN UP</a>
+</div>
 
       </main>
     </div>
@@ -168,43 +175,44 @@
       <div class="form-loading-error"></div>
     </div>
     <script defer="true" src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script>
-    <script defer="true" src="../../../../assets/javascripts/marketo_popover-a55210a4.js" onload="new MarketoForm('//app-e.marketo.com', '199-QDE-291').init(5414)"></script>
+    <script defer="true" src="../../../../assets/javascripts/marketo_popover-dbbdf145.js" onload="new MarketoForm('//app-e.marketo.com', '199-QDE-291').init(5414)"></script>
 </div>
 
           </section>
           <h2 class="section-title">Recent Articles</h2>
           <ol>
             <li>
-              <span class="post-date">Oct 30</span>
+              <span class="post-date">May 21</span>
+              <span class="post-author">GoCD Team</span>
+              <a href="../../../../2019/05/21/official-stance-on-java/">Effect of Java licensing changes on GoCD</a>
+            </li>
+            <li>
+              <span class="post-date">May 14</span>
+              <span class="post-author">Mohamed Najiullah</span>
+              <a href="../../../../2019/05/14/installing-configuring-gocd-gke-using-helm/">Installing and Configuring GoCD on GKE using Helm</a>
+            </li>
+            <li>
+              <span class="post-date">Mar 19</span>
+              <span class="post-author">Ankit Srivistava</span>
+              <a href="../../../../2019/03/19/user-authorization-ldap/">Use OpenLDAP for User Authentication in GoCD</a>
+            </li>
+            <li>
+              <span class="post-date">Jan 14</span>
               <span class="post-author">Aravind S.V and Suzie Prince</span>
-              <a href="./">Why measure your CD process</a>
+              <a href="../../../../2019/01/14/cd-metrics-deployment-lead-time/">Continuous Delivery Metrics Part 3&#58; How long does it take to get from committing code to production?</a>
             </li>
             <li>
-              <span class="post-date">Oct 16</span>
-              <span class="post-author">Aravind S.V, Product Manager at GoCD</span>
-              <a href="../../16/new-gocd-features/">What's new in GoCD</a>
-            </li>
-            <li>
-              <span class="post-date">Sep 11</span>
-              <span class="post-author">Sheroy Marker</span>
-              <a href="../../../09/11/cd-microservices-remediation-strategy/">Remediation Strategy for Continuous Delivery of Microservices</a>
-            </li>
-            <li>
-              <span class="post-date">Aug 21</span>
-              <span class="post-author">Ken Mugrage</span>
-              <a href="../../../08/21/replacing-gocd-with-gocd/">Replacing GoCD with GoCD</a>
-            </li>
-            <li>
-              <span class="post-date">Jul 31</span>
-              <span class="post-author">Sheroy Marker</span>
-              <a href="../../../07/31/cd-microservices-configuration-strategy/">Configuration Strategy for Continuous Delivery of Microservices</a>
+              <span class="post-date">Nov 30</span>
+              <span class="post-author">Aravind S.V and Suzie Prince</span>
+              <a href="../../../11/30/deployment-frequency/">Continuous Delivery Metrics Part 2&#58; How often do you deploy to production?</a>
             </li>
           </ol>
         </section>
         <section>
           <h2 class="section-title">By Year</h2>
           <ol>
-            <li><a href="../../../">2018 (17)</a></li>
+            <li><a href="../../../../2019/">2019 (4)</a></li>
+            <li><a href="../../../">2018 (18)</a></li>
             <li><a href="../../../../2017/">2017 (39)</a></li>
             <li><a href="../../../../2016/">2016 (8)</a></li>
             <li><a href="../../../../2015/">2015 (21)</a></li>
@@ -283,16 +291,17 @@
         <div class="col-md-2">
           <ul class="unordered-list">
             <li><a href="../../../../download/">DOWNLOAD GoCD</a></li>
-            <li><a href="../../../../getting-started/part-1/">GETTING STARTED</a></li>
-            <li><a href="../../../../plugins/">PLUGINS</a></li>
+            <li><a href="../../../../getting-started/part-1/">INTRO TO GoCD</a></li>
+            <li><a href="../../../../test-drive-gocd.html">TEST DRIVE GoCD</a></li>
+
           </ul>
         </div>
 
         <div class="col-md-2">
           <ul class="unordered-list">
-            <li> <a href="../../../../events/">WEBINARS + EVENTS</a></li>
+            <li><a href="../../../../plugins/">PLUGINS</a></li>
             <li><a href="../../../../resources/">RESOURCES</a></li>
-            <li><a href="../../../../contribute/">CONTRIBUTE</a></li>
+            <li> <a href="../../../../events/">WEBINARS + EVENTS</a></li>
           </ul>
         </div>
 
@@ -300,7 +309,7 @@
           <ul class="unordered-list">
             <li><a href="https://www.github.com/gocd" target="_blank">FORK US ON GITHUB</a></li>
             <li><a href="https://brandfolder.com/twproducts">LOGOS + BRAND</a> </li>
-            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
+            <li><a href="../../../../contribute/">CONTRIBUTE</a></li>
           </ul>
         </div>
 
@@ -308,6 +317,7 @@
           <ul class="unordered-list">
             <li><a href="../../../../enterprise/support/">ENTERPRISE SUPPORT</a> </li>
             <li><a href="https://support.thoughtworks.com/hc/en-us/requests/new" target="_blank">SUBMIT A TICKET</a></li>
+            <li><a href="https://www.thoughtworks.com/privacy-policy">PRIVACY</a> </li>
           </ul>
         </div>
 
